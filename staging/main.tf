@@ -1,4 +1,6 @@
-variable "dummy" {}
+variable "dummy" {
+  default = "georgi"
+}
 
 module "null" {
   source = "../module"
