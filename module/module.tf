@@ -1,4 +1,6 @@
-variable "dummy" {}
+variable "dummy" {
+  default = "georgi"
+}
 
 resource "null_resource" "echo_dummy" {
   provisioner local-exec {
